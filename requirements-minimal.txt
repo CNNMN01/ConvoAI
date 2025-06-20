@@ -1,0 +1,6 @@
+# Minimal requirements for ConvoAI with Ollama
+flask>=2.0.0
+requests>=2.25.0
+
+# Note: torch only needed if using brain_improved.py
+# Most users should use ollama_brain.py or personality_brain.py

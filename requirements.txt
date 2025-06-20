@@ -1,0 +1,11 @@
+# Web framework
+flask>=2.0.0
+
+# HTTP requests for Ollama API
+requests>=2.25.0
+
+# AI/ML libraries (only needed for brain_improved.py with local models)
+torch>=1.9.0
+
+# All other imports are Python built-ins:
+# json, os, random, threading, time, datetime, collections, typing, sqlite3
