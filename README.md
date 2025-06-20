@@ -16,7 +16,7 @@ An advanced conversational AI system with multiple personalities, memory, and a 
 2. Install dependencies: `pip install flask requests`
 3. Install Ollama and run: `ollama pull tinyllama`
 4. Run: `python web_app_with_personalities.py`
-5. Open: http://localhost:5000
+5. Open: http://localhost:5001
 
 ## Requirements
 
