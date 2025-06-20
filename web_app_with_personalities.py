@@ -3,7 +3,7 @@ ConvoAI Web Interface with Personality Selection - FIXED
 """
 
 from flask import Flask, render_template, request, jsonify
-from chatbot.ollama_brain import ConvoAIBrain
+from chatbot.personality_brain import ConvoAIBrain
 from chatbot.web_memory_fixed import ConversationMemory
 from chatbot.personality import PersonalityManager
 
@@ -151,4 +151,4 @@ def chat():
 if __name__ == '__main__':
     print("🌐 Starting web interface with personalities...")
     print("🔗 Access your chatbot at: http://localhost:5000")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5001, debug=True)
